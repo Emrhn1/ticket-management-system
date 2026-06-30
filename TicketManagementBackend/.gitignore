@@ -1,0 +1,23 @@
+# Build dosyaları
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+*.csproj.user
+*.sln.DotSettings
+
+# VS Code ayarları
+.vscode/
+
+# NuGet paketleri (Dışarıdan indirilecekler)
+packages/
+
+# User-specific ayarlar (Şifrelerin, API keylerin olduğu dosyalar)
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+appsettings.Local.json
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
